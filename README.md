@@ -10,4 +10,4 @@
 
 - [Ruby 官方网站](https://www.ruby-lang.org/en/)
 - [RubyInstaller](https://rubyinstaller.org/)
-- [compass 官网](http://compass-style.org/)
+- [Compass 官网](http://compass-style.org/)
