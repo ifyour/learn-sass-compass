@@ -9,4 +9,5 @@
 ### 相关链接
 
 - [Ruby 官方网站](https://www.ruby-lang.org/en/)
-- [rubyinstaller](https://rubyinstaller.org/)
+- [RubyInstaller](https://rubyinstaller.org/)
+- [compass 官网](http://compass-style.org/)
