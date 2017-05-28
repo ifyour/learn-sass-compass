@@ -8,6 +8,7 @@
 
 ### 相关链接
 
-- [Ruby 官方网站](https://www.ruby-lang.org/en/)
-- [RubyInstaller](https://rubyinstaller.org/)
 - [Compass 官网](http://compass-style.org/)
+- [Sass 中文文档](http://www.css88.com/doc/sass/)
+- [Ruby 官网](https://www.ruby-lang.org/en/)
+- [RubyInstaller](https://rubyinstaller.org/)
