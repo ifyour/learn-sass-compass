@@ -1,0 +1,79 @@
+// 引入重置样式插件
+@import "normalize";
+// 引入 compass 其自动包含了内部模块
+@import "compass";
+// 引入 compass 的 layout 模块, 同 rest 一样, 此模块需要单独引入
+@import "compass/layout";
+
+$supported-browsers: chrome ie firefox;
+$browser-nimimum-sersions: ("ie" : "8");
+
+// 完全填充占满整个父元素
+.stretch-full {
+    @include stretch();
+}
+
+// 使用 compass 中 css3 模块的垮浏览器 css3 的混合
+.box-shadows {
+    @include box-shadow (1px 1px 2px 3px #ccc);
+}
+
+// css3 的 inline-bloc 垮浏览器兼容
+// 比如解决了 IE 对 inline-block 的支持
+.test-inline-block {
+    @include inline-block();
+}
+
+// css3 的 opacity 透明度 垮浏览器兼容
+.test-opacity {
+    @include opacity(.3);
+}
+
+// 使用 typography 模块的相关 mixin
+a {
+    @include unstyled-link();
+}
+
+// 文字强制掰断
+.text-force-wrap {
+    @include force-wrap();
+}
+
+// 文字不换行
+.text-nowrap {
+    @include nowrap();
+}
+
+// 超出显示省略号
+// compass install compass/ellipsis
+// 开启 Firefox 低版本对 ellipisis 的支持
+$use-Mozilla-ellipsis-binding: true;
+.text-ellipsis {
+    @include ellipsis();
+}
+
+// 隐藏文字
+.hide-text {
+    @include hide-text();
+}
+
+// 用图片替换文字
+// 图片 http://cdn.qq.com/find-btn.png
+.btn-find {
+    @include replace-text("http://cdn.qq.com/find-btn.png");
+}
+
+// 减少一些背景图的请求数, 会使用 base64 将图片写入 css 中
+// 这称为 Data URI
+.logo {
+    // 传统写法
+    // background:url('data:images/png;base64,详细编码');
+    // inline-image 是 compass 提供的 helper function 自动生成并替换
+    background-image: inline-image('logo.jpg');
+}
+
+.analyzer-logo {
+    // image-url helper function 自动进行图片寻址, 并生成缓存克星有效解决 cdn 更新问题
+    // 其相对于 config.rb 内 `http_path` 的路径
+    background-image: image-url('logo.jpg');
+}
