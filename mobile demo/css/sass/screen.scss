@@ -1,0 +1,15 @@
+// 引入重置库
+@import "normalize";
+// 引入自定义混合
+@import "../mixins/mixins";
+// 基准字体自适应配置
+@import "../mixins/vertical";
+
+// 使用 rem 作为单位后, 在不同设备间都会有相对统一的显示比例
+// 从而达到自动适应的效果
+.box {
+    @include rem(width, 100px);
+    @include rem(height, 100px);
+    background-color: #000;
+    color: #fff;
+}

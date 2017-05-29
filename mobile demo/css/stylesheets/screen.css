@@ -1,0 +1,601 @@
+@charset "UTF-8";
+/*! normalize.css v3.0.0 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.0 | HTML5 Display Definitions | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 29, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 40, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 47, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_html5.scss */
+[hidden],
+template {
+  display: none;
+}
+
+/*! normalize.css v3.0.0 | Base | MIT License | git.io/normalize */
+/* line 11, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 19, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_base.scss */
+body {
+  margin: 0;
+}
+
+/*! normalize.css v3.0.0 | Links | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a {
+  background: transparent;
+}
+
+/* line 15, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_links.scss */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/*! normalize.css v3.0.0 | Typography | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 15, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 22, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+dfn {
+  font-style: italic;
+}
+
+/* line 29, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 36, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 43, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+small {
+  font-size: 80%;
+}
+
+/* line 49, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 57, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 61, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_typography.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/*! normalize.css v3.0.0 | Embedded Content | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+img {
+  border: 0;
+}
+
+/* line 15, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_embeds.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/*! normalize.css v3.0.0 | Figures | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 15, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 23, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+pre {
+  overflow: auto;
+}
+
+/* line 29, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_groups.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/*! normalize.css v3.0.0 | Forms | MIT License | git.io/normalize */
+/* line 15, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+}
+
+/* line 27, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button {
+  overflow: visible;
+}
+
+/* line 36, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 47, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 57, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 64, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 73, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input {
+  line-height: normal;
+}
+
+/* line 83, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 93, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 102, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* line 113, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 120, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 129, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 136, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+textarea {
+  overflow: auto;
+}
+
+/* line 143, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_forms.scss */
+optgroup {
+  font-weight: bold;
+}
+
+/*! normalize.css v3.0.0 | Tables | MIT License | git.io/normalize */
+/* line 9, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 14, C:/Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-normalize-1.5/stylesheets/normalize/_tables.scss */
+td,
+th {
+  padding: 0;
+}
+
+/**
+ * @desc 去掉单位
+ */
+/**
+ * @desc 将一个值转成rem
+ */
+/**
+ * @desc 将一个或者多个px值转成rem
+ */
+/**
+ * @desc 获取列表第一个
+ */
+/**
+ * @desc 获取列表最后一个
+ */
+/**
+ * @desc 向列表前面插入
+ */
+/**
+ * @desc 向列表指定位置插入
+ */
+/**
+ * @desc 替换列表的某个元素 $recursive 是否全部替换
+ */
+/**
+ * @desc 替换列表某个位置
+ */
+/**
+ * @desc 删除列表某个元素 $recursive 是否删除所有
+ */
+/**
+ * @desc 删除列表指定位置元素
+ */
+/**
+ * @desc 截取列表中的一部分
+ */
+/**
+ * @desc 列表变成字符串
+ */
+/**
+ * @desc 将列表部分元素前置
+ */
+/**
+ * @desc 列表是否存在
+ */
+/**
+ * @desc 字符串分隔
+ */
+/**
+ * @desc 字符串重复
+ */
+/**
+ * @desc 字符串替换
+ */
+/*!
+ *  Fonts.css -- Cross-platform Chinese fonts solution
+ *
+ *  Copyright (C) 2013-2015 Zeno Zeng
+ *  Released under the MIT license
+ *
+ *  Github: https://github.com/zenozeng/fonts.css
+ */
+/**
+ * @param $line       超出显示省略号的行数，默认：1
+ * @param $substract  为预留区域百分比%，默认：0
+ */
+/**
+ * @param $property       css属性
+ * @param $values         css属性值
+ * @param $support-ie     是否对不支持rem的浏览器使用px
+ * @param $base           基准字体大小，如果不传会搜索全局变量 $base-font，如果没有默认为 16px
+ */
+/**
+ * @desc  绘制箭头 http://lugolabs.com/caret
+ * @param $width
+ * @param $border-width
+ * @param $direction: top bottom left right
+ * @param $background-color
+ * @param $position 默认relative
+ */
+/**
+ * @desc  三角形
+ * @param $width
+ * @param $height
+ * @param $color
+ * @param $direction: top bottom left right
+ */
+/**
+ * @desc 通过背景图实现三角形
+ */
+/**
+ * @param $direction: horizontal vertical both
+ */
+/**
+ * @param $min   min-width
+ * @param $max   max-width
+ */
+/**
+ * @param $filename
+ * @param $retina-filename   多个或者一个
+ * @param $ratio             多个或者一个
+ * @param $background-size
+ */
+/**
+ * @param $color
+ * @param $direction: top bottom left right vertical all radius,  default: all
+ */
+/**
+ * @param $color
+ * @param $direction: top bottom left right vertical all,  default: all
+ * @param $pseudo: after before, default: after
+ */
+/**
+ * @param $color
+ * @param $direction: top bottom left right vertical all radius,  default: all
+ * @param $pseudo: after before, default: after
+ * @param $radius default: 1px
+ */
+/**
+ * @desc  气泡提示: http://kazzkiq.github.io/balloon.css/
+ * @param $direction:            top bottom left right
+ * @param $bg                    气泡提示背景颜色
+ * @param $trangle-width         气泡小三角形宽度
+ * @param $trangle-height        气泡小三角形高度
+ * @param $color                 气泡文字颜色
+ * @param $font                  气泡文字大小
+ */
+/**
+ * @param $height  线高  default: 1px
+ * @param $space   线距离文字两边的距离 default: 0.5em
+ * @param $color   线颜色 default: inherit
+ * @param $style   border-style default: solid
+ * @param $adjust  线距离底部的距离，默认垂直居中 default: false
+ * @param $double  是否需要两条线
+ */
+/* line 11, ../mixins/_vertical.scss */
+html {
+  font-size: 20px;
+  outline: 0;
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -o-text-size-adjust: 100%;
+}
+
+@media only screen and (min-width: 320px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 17.06667px !important;
+  }
+}
+@media only screen and (min-width: 335px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 17.86667px !important;
+  }
+}
+@media only screen and (min-width: 345px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 18.4px !important;
+  }
+}
+@media only screen and (min-width: 360px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 19.2px !important;
+  }
+}
+@media only screen and (min-width: 375px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 20px !important;
+  }
+}
+@media only screen and (min-width: 400px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 21.33333px !important;
+  }
+}
+@media only screen and (min-width: 414px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 22.08px !important;
+  }
+}
+@media only screen and (min-width: 430px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 22.93333px !important;
+  }
+}
+@media only screen and (min-width: 454px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 24.21333px !important;
+  }
+}
+@media only screen and (min-width: 460px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 24.53333px !important;
+  }
+}
+@media only screen and (min-width: 480px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 25.6px !important;
+  }
+}
+@media only screen and (min-width: 500px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 26.66667px !important;
+  }
+}
+@media only screen and (min-width: 520px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 27.73333px !important;
+  }
+}
+@media only screen and (min-width: 540px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 28.8px !important;
+  }
+}
+@media only screen and (min-width: 560px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 29.86667px !important;
+  }
+}
+@media only screen and (min-width: 580px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 30.93333px !important;
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 32px !important;
+  }
+}
+@media only screen and (min-width: 620px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 33.06667px !important;
+  }
+}
+@media only screen and (min-width: 640px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 34.13333px !important;
+  }
+}
+@media only screen and (min-width: 680px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 36.26667px !important;
+  }
+}
+@media only screen and (min-width: 700px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 37.33333px !important;
+  }
+}
+@media only screen and (min-width: 720px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 38.4px !important;
+  }
+}
+@media only screen and (min-width: 735px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 39.2px !important;
+  }
+}
+@media only screen and (min-width: 750px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 40px !important;
+  }
+}
+@media only screen and (min-width: 780px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 41.6px !important;
+  }
+}
+@media only screen and (min-width: 800px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 42.66667px !important;
+  }
+}
+@media only screen and (min-width: 840px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 44.8px !important;
+  }
+}
+@media only screen and (min-width: 900px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 48px !important;
+  }
+}
+@media only screen and (min-width: 960px) {
+  /* line 29, ../mixins/_vertical.scss */
+  html {
+    font-size: 51.2px !important;
+  }
+}
+/* line 36, ../mixins/_vertical.scss */
+html {
+  font-size: calc(2 * 100vw / 37.5) !important;
+}
+
+/* line 10, ../sass/screen.scss */
+.box {
+  width: 5rem;
+  height: 5rem;
+  background-color: #000;
+  color: #fff;
+}
