@@ -2,6 +2,7 @@
 @import "normalize";
 // 引入自定义混合
 @import "../mixins/mixins";
+@import "../mixins/mui-mixins";
 // 基准字体自适应配置
 @import "../mixins/vertical";
 
@@ -38,4 +39,15 @@
 // 多行文本溢出 use mixin
 .intwoline-mixin {
     @include text-overflow(2);
+}
+
+// 前缀 mixin
+.boxshow-mixin {
+    @include prefix((box-shadow:0 0 0 transparent),webkit);
+}
+
+// flex mixin from mui-mixins
+.flex-mixin {
+    @include flexbox();
+    @include flex-around();
 }
