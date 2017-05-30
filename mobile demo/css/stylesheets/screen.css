@@ -599,3 +599,20 @@ html {
   background-color: #000;
   color: #fff;
 }
+
+/* line 17, ../sass/screen.scss */
+.inline {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* line 24, ../sass/screen.scss */
+.intwoline {
+  display: -webkit-box !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
