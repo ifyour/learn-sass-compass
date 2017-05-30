@@ -20,6 +20,11 @@
     text-overflow: ellipsis;
 }
 
+// 单行文本溢出 use mixin
+.inline-mixin {
+    @include text-overflow();
+}
+
 // 多行文本溢出
 .intwoline {
     display: -webkit-box !important;
@@ -28,4 +33,9 @@
     word-break: break-all;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
+}
+
+// 多行文本溢出 use mixin
+.intwoline-mixin {
+    @include text-overflow(2);
 }

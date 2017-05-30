@@ -608,6 +608,14 @@ html {
 }
 
 /* line 24, ../sass/screen.scss */
+.inline-mixin {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+/* line 29, ../sass/screen.scss */
 .intwoline {
   display: -webkit-box !important;
   overflow: hidden;
@@ -615,4 +623,12 @@ html {
   word-break: break-all;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
+}
+
+/* line 39, ../sass/screen.scss */
+.intwoline-mixin {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
